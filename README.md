@@ -4,10 +4,11 @@ This project is a text classification model that predicts the mood of a journal 
 
 The repository contains the following files:
 
-Mood_Journal_Data_Expanded.csv – The dataset of journal entries labeled with moods.
-Mood_Journal_Model.ipynb – The Python notebook containing the code for training, evaluating, and explaining the model (created in Google Colab).
-mood_journal_model.joblib – The pre-trained model saved for reuse.
-shap_summary_plot.png – SHAP summary plot showing which words influenced each mood class the most.
+- Mood_Journal_Data_Expanded.csv – The dataset of journal entries labeled with moods.
+- Mood_Journal_Model.ipynb – The Python notebook containing the code for training, evaluating, and explaining the model (created in Google Colab).
+- mood_journal_model.joblib – The pre-trained model saved for reuse.
+- shap_summary_plot.png – SHAP summary plot showing which words influenced each mood class the most.
+- Additionally, this link is too a Replit app that allows a user to input journal entries, get the mood back, saves previous entries, and visualizes it easily to see trends: https://replit.com/@nwriter/MoodJournal
 
 ## How It Works:
 - The journal entries are preprocessed using a TF-IDF vectorizer, which converts the text into numerical features.
